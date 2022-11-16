@@ -6,23 +6,38 @@ public class MarsRover {
     int positionY = 0;
     String positionD = "N";
 
-    public String Execute( String command) {
+    public String execute(String command) {
 
 
         String result = "";
 
-        for(int i =0; i<command.length(); i++) {
+        for (int i = 0; i < command.length(); i++) {
             char movement = command.charAt(i);
             move(movement);
         }
-        result = positionX+":"+positionY+":"+positionD;
+        result = positionX + ":" + positionY + ":" + positionD;
         return result;
     }
 
-    private void move (char movement)
-    {
+    private void move (char movement) {
+        int max = 9;
+        int min = 0;
+
         if (movement == 'M') {
-            positionY++;
+            switch (positionD) {
+                case "N":
+                    positionY = (positionY == max) ? 0 : positionY + 1;
+                    break;
+                case "E":
+                    positionX = (positionX == max) ? 0 : positionX + 1;
+                    break;
+                case "S":
+                    positionY = (positionY == min) ? 9 : positionY - 1;
+                    break;
+                case "W":
+                    positionX = (positionX == min) ? 9 : positionX - 1;
+                    break;
+            }
         }
         if (movement == 'R') {
             switch (positionD)
