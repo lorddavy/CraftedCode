@@ -1,0 +1,2 @@
+com/codurance/katalyst/kickstart/MarsRover.java
+ com.codurance.katalyst.kickstart.MarsRover
