@@ -1,8 +1,7 @@
 # CraftedCode
 Exercises code for Crafted Design training course
 
-## Katas
---------
+## Katas resources
 https://github.com/codurance/katalyst-kickstart
 
 -Kata 1
@@ -10,7 +9,7 @@ https://www.codurance.com/katalyst/simple-mars-rover
 
 -Kata 2
 
-
+--------
 ## Looking for a good kata? 🥋
 
 **Katalyst** refers to [katalyst.codurance.com](https://katalyst.codurance.com/), a website providing katas for
