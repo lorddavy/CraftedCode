@@ -32,7 +32,7 @@ If a rover reaches the end of the plateau, it wraps around the end of the grid.
 
 The program's output is the final position of the rover after all the move commands have been executed. The position is represented as a coordinate pair and a direction, joined by colons to form a string. For example: a rover whose position is `2:3:W` is at square (2,3), facing west.
 
-###Examples
+### Examples
 given an input 'MMRMMLM' then the output should be '2:3:N'
 given an input 'MMMMMMMMMM' gives output '0:0:N' (due to wrap-around)
 
@@ -51,5 +51,5 @@ A public interface to the API could look something like this:
 The rover receives a char array of commands e.g.'RMMLM' and returns the finishing point after the moves e.g. '2:1:N'
 The rover wraps around if it reaches the end of the grid.
 
-###Credit: 
+### Credit: 
 Google Code Archive
