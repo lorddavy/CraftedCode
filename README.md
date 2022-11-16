@@ -5,7 +5,8 @@ Exercises code for Crafted Design training course
 https://github.com/codurance/katalyst-kickstart
 
 -Kata 1
-https://www.codurance.com/katalyst/simple-mars-rover
+simple version ->https://www.codurance.com/katalyst/simple-mars-rover
+harder verison -> https://www.codurance.com/katalyst/mars-rover
 
 -Kata 2
 
