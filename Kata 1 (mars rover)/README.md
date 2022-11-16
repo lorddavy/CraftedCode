@@ -1,5 +1,7 @@
 # Kata description
+
 simple version -> https://www.codurance.com/katalyst/simple-mars-rover
+
 harder verison -> https://www.codurance.com/katalyst/mars-rover
 
 --------
@@ -49,4 +51,5 @@ A public interface to the API could look something like this:
 The rover receives a char array of commands e.g.'RMMLM' and returns the finishing point after the moves e.g. '2:1:N'
 The rover wraps around if it reaches the end of the grid.
 
-Credit: Google Code Archive
+###Credit: 
+Google Code Archive
