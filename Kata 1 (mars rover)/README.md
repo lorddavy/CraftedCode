@@ -1,4 +1,4 @@
-Katas
+## Katas links
 --------
 https://github.com/codurance/katalyst-kickstart
 
