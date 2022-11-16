@@ -1,4 +1,4 @@
-package com.codurance.katalyst.kickstart;
+package com.robots;
 
 
 public class MarsRover {

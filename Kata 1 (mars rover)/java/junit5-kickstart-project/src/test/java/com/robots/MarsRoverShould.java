@@ -1,4 +1,4 @@
-package com.codurance.katalyst.kickstart;
+package com.robots;
 
 
 import org.junit.jupiter.api.BeforeEach;
