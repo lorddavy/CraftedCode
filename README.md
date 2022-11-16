@@ -1,2 +1,2 @@
 # CraftedCode
-Exercises code for Crafted Code training
+Exercises code for Crafted Design training course
