@@ -22,14 +22,16 @@ In this API, the plateau is represented as a 10x10 grid, and a rover has state c
 - the starting position of the rover is '0:0:N'
 
 ### Input
-- The input to the program is a string of one-character move commands:
- - 'L' and 'R' rotate the direction the rover is facing.
- - 'M' moves the rover one grid square forward in the direction it is currently facing.
- - If a rover reaches the end of the plateau, it wraps around the end of the grid.
+The input to the program is a string of one-character move commands:
+- 'L' and 'R' rotate the direction the rover is facing.
+- 'M' moves the rover one grid square forward in the direction it is currently facing.
+- If a rover reaches the end of the plateau, it wraps around the end of the grid.
 
 ### Output
 
-The program's output is the final position of the rover after all the move commands have been executed. The position is represented as a coordinate pair and a direction, joined by colons to form a string. For example: a rover whose position is `2:3:W` is at square (2,3), facing west.
+The program's output is the final position of the rover after all the move commands have been executed. The position is represented as a coordinate pair and a direction, joined by colons to form a string. 
+
+For example: a rover whose position is `2:3:W` is at square (2,3), facing west.
 
 ### Examples
 - given an input 'MMRMMLM' then the output should be '2:3:N'.
